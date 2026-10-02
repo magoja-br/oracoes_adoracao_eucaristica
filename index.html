@@ -1,0 +1,1447 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orações para a Adoração Eucarística</title>
+<meta name="description" content="Coletânea classificada de orações para a adoração ao Santíssimo Sacramento: exposição e bênção, louvor, comunhão espiritual, reparação, ação de graças, ladainhas, jaculatórias e textos em latim.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='22' fill='%23c9a227'/><g stroke='%23c9a227' stroke-width='5'><line x1='50' y1='4' x2='50' y2='20'/><line x1='50' y1='80' x2='50' y2='96'/><line x1='4' y1='50' x2='20' y2='50'/><line x1='80' y1='50' x2='96' y2='50'/><line x1='17' y1='17' x2='29' y2='29'/><line x1='71' y1='71' x2='83' y2='83'/><line x1='83' y1='17' x2='71' y2='29'/><line x1='17' y1='83' x2='29' y2='71'/></g></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #fbf8f1; --card: #ffffff; --text: #2b2520; --muted: #6f655a;
+  --accent: #8a1c1c; --gold: #a8861c; --line: #e6dccb; --quote: #f5efe2;
+  --bar: rgba(251,248,241,.92);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17140f; --card: #201c16; --text: #ece4d6; --muted: #a99d8b;
+    --accent: #e08a7a; --gold: #d8b450; --line: #3a3228; --quote: #26211a;
+    --bar: rgba(23,20,15,.92);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17140f; --card: #201c16; --text: #ece4d6; --muted: #a99d8b;
+  --accent: #e08a7a; --gold: #d8b450; --line: #3a3228; --quote: #26211a;
+  --bar: rgba(23,20,15,.92);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 64px; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+  font-size: calc(19px * var(--escala, 1)); line-height: 1.6;
+}
+.barra {
+  position: sticky; top: 0; z-index: 10; background: var(--bar);
+  backdrop-filter: blur(6px); border-bottom: 1px solid var(--line);
+  display: flex; align-items: center; gap: 8px; padding: 8px 16px;
+}
+.barra .nome { font-family: Cinzel, serif; font-size: 15px; color: var(--gold); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.barra a, .barra button {
+  font: 600 14px system-ui, sans-serif; color: var(--text); background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px;
+  text-decoration: none; cursor: pointer; min-height: 34px;
+}
+main { max-width: 760px; margin: 0 auto; padding: 8px 16px 64px; }
+h1 { font-family: Cinzel, serif; color: var(--accent); text-align: center; font-size: 1.7em; line-height: 1.25; margin: 1.2em 0 .5em; }
+h1::after { content: "✠"; display: block; color: var(--gold); font-size: .6em; margin-top: .4em; }
+h2 { font-family: Cinzel, serif; color: var(--accent); font-size: 1.3em; line-height: 1.3; margin: 2em 0 .6em; padding-bottom: .3em; border-bottom: 2px solid var(--gold); }
+h3 { color: var(--accent); font-size: 1.15em; margin: 1.8em 0 .4em; font-weight: 600; line-height: 1.3; }
+a { color: var(--accent); }
+hr { border: 0; height: 1px; background: var(--line); margin: 2.4em 0; }
+blockquote { margin: 1em 0; padding: .6em 1em; background: var(--quote); border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; }
+blockquote p { margin: .4em 0; }
+em { color: var(--muted); }
+strong em, h3 em { color: inherit; }
+ol, ul { padding-left: 1.3em; }
+li { margin: .25em 0; }
+.tabela { overflow-x: auto; margin: 1em 0; }
+table { border-collapse: collapse; width: 100%; font-size: .9em; }
+th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+th { background: var(--quote); }
+.voltar { text-align: right; font: 13px system-ui, sans-serif; margin-top: .6em; }
+.voltar a { color: var(--muted); text-decoration: none; }
+#sumario + ul, #sumario ~ p { }
+@media print {
+  .barra, .voltar { display: none; }
+  body { font-size: 12pt; background: #fff; color: #000; }
+  h2 { page-break-before: always; }
+}
+</style>
+</head>
+<body>
+<div class="barra">
+  <span class="nome">Adoração Eucarística</span>
+  <a href="#sumario">Sumário</a>
+  <button id="menor" aria-label="Diminuir letra">A−</button>
+  <button id="maior" aria-label="Aumentar letra">A+</button>
+  <button id="tema" aria-label="Alternar tema claro/escuro">◐</button>
+</div>
+<main>
+<p><a id="topo"></a></p>
+<h1>Orações para a Adoração Eucarística</h1>
+<blockquote>
+<p>Coletânea de orações próprias para rezar diante de Jesus Sacramentado: na exposição solene, na Hora Santa, na adoração perpétua, numa visita ao sacrário ou na adoração pessoal e silenciosa. As orações estão <strong>classificadas por tipo e por momento</strong> e cada uma tem um link direto no sumário.</p>
+<p><strong>Legenda:</strong> ℣ = versículo (quem dirige) · ℟ = resposta (todos) · <em>texto em itálico</em> = rubrica/instrução (não se lê em voz alta)</p>
+</blockquote>
+<hr />
+<p><a id="sumario"></a></p>
+<h2>Sumário</h2>
+<p><strong>Como usar</strong></p>
+<ul>
+<li><a href="#roteiro">Roteiro sugerido para uma adoração</a></li>
+<li><a href="#quadro">Quadro rápido: que oração rezar em cada momento</a></li>
+</ul>
+<p><strong>1. <a href="#cat-rito">Rito de exposição e bênção</a></strong></p>
+<ul>
+<li>1.1 <a href="#o-salutaris">Ó Hóstia salutar — <em>O salutaris Hostia</em></a></li>
+<li>1.2 <a href="#tantum-ergo">Tão sublime Sacramento — <em>Tantum ergo</em></a></li>
+<li>1.3 <a href="#oracao-bencao">Oração da bênção: “Senhor Jesus Cristo, neste admirável sacramento”</a></li>
+<li>1.4 <a href="#bendito-seja-deus">Louvores de reparação — “Bendito seja Deus”</a></li>
+<li>1.5 <a href="#gracas-e-louvores">Graças e louvores</a></li>
+<li>1.6 <a href="#laudate-dominum">Salmo 117 — <em>Laudate Dominum</em></a></li>
+</ul>
+<p><strong>2. <a href="#cat-inicio">Orações iniciais e de chegada</a></strong></p>
+<ul>
+<li>2.1 <a href="#sinal-da-cruz">Sinal da Cruz</a></li>
+<li>2.2 <a href="#vinde-espirito-santo">Vinde, Espírito Santo</a></li>
+<li>2.3 <a href="#anjo-meu-deus">Oração do Anjo de Portugal — “Meu Deus, eu creio”</a></li>
+<li>2.4 <a href="#nos-vos-adoramos">Saudação de São Francisco — “Nós vos adoramos”</a></li>
+<li>2.5 <a href="#visita-santo-afonso">Visita ao Santíssimo Sacramento (Santo Afonso de Ligório)</a></li>
+</ul>
+<p><strong>3. <a href="#cat-basicas">Orações básicas</a></strong></p>
+<ul>
+<li>3.1 <a href="#pai-nosso">Pai-Nosso</a> · 3.2 <a href="#ave-maria">Ave-Maria</a> · 3.3 <a href="#gloria">Glória</a> · 3.4 <a href="#creio">Creio (Símbolo dos Apóstolos)</a></li>
+</ul>
+<p><strong>4. <a href="#cat-atos">Atos das virtudes</a></strong></p>
+<ul>
+<li>4.1 <a href="#ato-fe">Ato de fé</a> · 4.2 <a href="#ato-fe-eucaristia">Ato de fé na presença real</a> · 4.3 <a href="#ato-esperanca">Ato de esperança</a> · 4.4 <a href="#ato-caridade">Ato de caridade</a> · 4.5 <a href="#ato-contricao">Ato de contrição</a></li>
+</ul>
+<p><strong>5. <a href="#cat-adoracao">Adoração e louvor</a></strong></p>
+<ul>
+<li>5.1 <a href="#adoro-te">Adoro-vos devotamente — <em>Adoro te devote</em></a></li>
+<li>5.2 <a href="#ave-verum">Salve, verdadeiro Corpo — <em>Ave verum Corpus</em></a></li>
+<li>5.3 <a href="#o-sacrum-convivium">Ó sagrado banquete — <em>O sacrum convivium</em></a></li>
+<li>5.4 <a href="#panis-angelicus">Pão dos anjos — <em>Panis angelicus</em></a></li>
+<li>5.5 <a href="#pange-lingua">Canta, ó língua — <em>Pange lingua</em></a></li>
+<li>5.6 <a href="#te-deum">Te Deum — “A vós, ó Deus, louvamos”</a></li>
+<li>5.7 <a href="#anjo-santissima-trindade">Oração do Anjo — “Santíssima Trindade”</a></li>
+<li>5.8 <a href="#fatima-eucaristica">Oração eucarística de Fátima — “Ó Santíssima Trindade, eu vos adoro”</a></li>
+</ul>
+<p><strong>6. <a href="#cat-comunhao">Comunhão espiritual</a></strong></p>
+<ul>
+<li>6.1 <a href="#comunhao-santo-afonso">Comunhão espiritual de Santo Afonso</a></li>
+<li>6.2 <a href="#comunhao-aos-vossos-pes">Comunhão espiritual “Aos vossos pés, ó meu Jesus”</a></li>
+<li>6.3 <a href="#comunhao-breve">Comunhão espiritual breve</a></li>
+<li>6.4 <a href="#alma-de-cristo">Alma de Cristo — <em>Anima Christi</em></a></li>
+</ul>
+<p><strong>7. <a href="#cat-reparacao">Reparação e desagravo</a></strong></p>
+<ul>
+<li>7.1 <a href="#ato-reparacao">Ato de reparação ao Sagrado Coração (“Dulcíssimo Jesus”)</a></li>
+<li>7.2 <a href="#o-jesus-por-vosso-amor">Oferecimento de Fátima — “Ó Jesus, é por vosso amor”</a></li>
+<li>7.3 <a href="#terco-misericordia">Terço da Misericórdia</a></li>
+</ul>
+<p><strong>8. <a href="#cat-gracas">Ação de graças</a></strong></p>
+<ul>
+<li>8.1 <a href="#santo-tomas-gracas">Oração de Santo Tomás de Aquino — “Graças vos dou”</a></li>
+<li>8.2 <a href="#eis-me-aqui">Oração diante do Crucifixo — “Eis-me aqui, ó bom e dulcíssimo Jesus”</a></li>
+<li>8.3 <a href="#magnificat">Magnificat</a></li>
+</ul>
+<p><strong>9. <a href="#cat-coracao">Sagrado Coração de Jesus</a></strong></p>
+<ul>
+<li>9.1 <a href="#consagracao-margarida">Consagração de Santa Margarida Maria</a></li>
+<li>9.2 <a href="#ladainha-coracao">Ladainha do Sagrado Coração de Jesus</a></li>
+</ul>
+<p><strong>10. <a href="#cat-ladainhas">Ladainhas</a></strong></p>
+<ul>
+<li>10.1 <a href="#ladainha-sangue">Ladainha do Preciosíssimo Sangue</a></li>
+<li>10.2 <a href="#ladainha-eucaristica">Ladainha eucarística (uso devocional)</a></li>
+<li><em>(ver também a <a href="#ladainha-coracao">Ladainha do Sagrado Coração</a>)</em></li>
+</ul>
+<p><strong>11. <a href="#cat-santos">Entrega e abandono — orações de santos</a></strong></p>
+<ul>
+<li>11.1 <a href="#tomai-senhor">“Tomai, Senhor, e recebei” (Santo Inácio)</a></li>
+<li>11.2 <a href="#abandono-foucauld">Oração do abandono (São Carlos de Foucauld)</a></li>
+<li>11.3 <a href="#fica-comigo">“Fica comigo, Senhor” (atribuída a São Pio de Pietrelcina)</a></li>
+<li>11.4 <a href="#oracao-universal">Oração universal (atribuída ao Papa Clemente XI)</a></li>
+</ul>
+<p><strong>12. <a href="#cat-maria">Orações com Maria</a></strong></p>
+<ul>
+<li>12.1 <a href="#salve-rainha">Salve-Rainha</a> · 12.2 <a href="#sub-tuum">À vossa proteção</a> · 12.3 <a href="#lembrai-vos">Lembrai-vos</a> · 12.4 <a href="#invocacoes-marianas">Invocações marianas eucarísticas</a></li>
+</ul>
+<p><strong>13. <a href="#cat-intercessao">Intercessão</a></strong></p>
+<ul>
+<li>13.1 <a href="#pelo-papa">Pelo Papa</a> · 13.2 <a href="#pelos-sacerdotes">Pelos sacerdotes</a> · 13.3 <a href="#pelas-vocacoes">Pelas vocações</a> · 13.4 <a href="#pelos-defuntos">Pelos fiéis defuntos</a> · 13.5 <a href="#sao-miguel">A São Miguel Arcanjo</a></li>
+</ul>
+<p><strong>14. <a href="#cat-jaculatorias">Jaculatórias eucarísticas</a></strong></p>
+<p><strong>15. <a href="#cat-palavra">Palavra de Deus para meditar</a></strong></p>
+<ul>
+<li>15.1 <a href="#salmo-150">Salmo 150</a> · 15.2 <a href="#leituras">Leituras e salmos recomendados</a></li>
+</ul>
+<p><strong>16. <a href="#cat-latim">Orações em latim</a></strong></p>
+<ul>
+<li>16.1 <a href="#latim-basicas"><em>Pater noster, Ave Maria, Gloria Patri</em></a></li>
+<li><em>(os hinos latinos estão junto à tradução: <a href="#o-salutaris">O salutaris</a>, <a href="#tantum-ergo">Tantum ergo</a>, <a href="#adoro-te">Adoro te</a>, <a href="#ave-verum">Ave verum</a>, <a href="#o-sacrum-convivium">O sacrum convivium</a>, <a href="#panis-angelicus">Panis angelicus</a>, <a href="#pange-lingua">Pange lingua</a>, <a href="#alma-de-cristo">Anima Christi</a>, <a href="#laudate-dominum">Laudate Dominum</a>)</em></li>
+</ul>
+<p><strong>17. <a href="#cat-encerramento">Encerramento</a></strong></p>
+<ul>
+<li>17.1 <a href="#oracao-saida">Oração antes de deixar a igreja</a></li>
+</ul>
+<p><strong>Anexo</strong></p>
+<ul>
+<li><a href="#indulgencias">Nota sobre indulgências</a></li>
+</ul>
+<hr />
+<p><a id="roteiro"></a></p>
+<h2>Roteiro sugerido para uma adoração</h2>
+<p><em>Serve tanto para uma Hora Santa em grupo quanto para meia hora de adoração pessoal. Escolha o que couber no tempo; o silêncio também é oração.</em></p>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Momento</th>
+<th>Orações sugeridas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Chegada / exposição</strong></td>
+<td><a href="#sinal-da-cruz">Sinal da Cruz</a> · <a href="#o-salutaris">O salutaris</a> (canto durante a exposição) · <a href="#gracas-e-louvores">Graças e louvores</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Ato de adoração</strong></td>
+<td><a href="#anjo-meu-deus">Meu Deus, eu creio</a> (3×) · <a href="#nos-vos-adoramos">Nós vos adoramos</a> · <a href="#ato-fe-eucaristia">Ato de fé na presença real</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Invocação do Espírito</strong></td>
+<td><a href="#vinde-espirito-santo">Vinde, Espírito Santo</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Palavra</strong></td>
+<td>Uma leitura de <a href="#leituras">15.2</a>, seguida de silêncio</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Louvor</strong></td>
+<td><a href="#adoro-te">Adoro te devote</a> · <a href="#te-deum">Te Deum</a> · <a href="#salmo-150">Salmo 150</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Arrependimento e reparação</strong></td>
+<td><a href="#ato-contricao">Ato de contrição</a> · <a href="#ato-reparacao">Ato de reparação</a> · <a href="#terco-misericordia">Terço da Misericórdia</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Comunhão espiritual</strong></td>
+<td><a href="#comunhao-santo-afonso">Comunhão espiritual</a> · <a href="#alma-de-cristo">Alma de Cristo</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Silêncio</strong></td>
+<td>Adoração silenciosa; usar <a href="#cat-jaculatorias">jaculatórias</a> se ajudar</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Intercessão</strong></td>
+<td><a href="#pelo-papa">Pelo Papa</a> · <a href="#pelos-sacerdotes">Pelos sacerdotes</a> · <a href="#pelas-vocacoes">Pelas vocações</a> · intenções livres</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Ação de graças e entrega</strong></td>
+<td><a href="#santo-tomas-gracas">Graças vos dou</a> · <a href="#tomai-senhor">Tomai, Senhor</a> · <a href="#abandono-foucauld">Oração do abandono</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Com Maria</strong></td>
+<td><a href="#magnificat">Magnificat</a> ou <a href="#salve-rainha">Salve-Rainha</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>Bênção / reposição</strong></td>
+<td><a href="#tantum-ergo">Tão sublime Sacramento</a> → <a href="#oracao-bencao">oração da bênção</a> → bênção → <a href="#bendito-seja-deus">Bendito seja Deus</a> → <a href="#laudate-dominum">Laudate Dominum</a> ou canto final</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><em>A exposição e a bênção com o ostensório são feitas por sacerdote ou diácono. Na falta destes, um ministro extraordinário (acólito instituído ou ministro da comunhão) pode expor e repor o Santíssimo, mas </em><em>não</em><em> dá a bênção com o ostensório.</em></p>
+</blockquote>
+<p><a id="quadro"></a></p>
+<h2>Quadro rápido: que oração rezar em cada momento</h2>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>Se você quer…</th>
+<th>Vá para</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Começar a adoração</td>
+<td><a href="#cat-inicio">Orações iniciais</a></td>
+</tr>
+<tr>
+<td>Professar a fé na presença real</td>
+<td><a href="#ato-fe-eucaristia">Ato de fé na presença real</a> · <a href="#adoro-te">Adoro te devote</a></td>
+</tr>
+<tr>
+<td>Louvar</td>
+<td><a href="#cat-adoracao">Adoração e louvor</a> · <a href="#te-deum">Te Deum</a></td>
+</tr>
+<tr>
+<td>Pedir perdão / reparar</td>
+<td><a href="#ato-contricao">Ato de contrição</a> · <a href="#cat-reparacao">Reparação</a></td>
+</tr>
+<tr>
+<td>Unir-se a Jesus sem poder comungar</td>
+<td><a href="#cat-comunhao">Comunhão espiritual</a></td>
+</tr>
+<tr>
+<td>Agradecer</td>
+<td><a href="#cat-gracas">Ação de graças</a></td>
+</tr>
+<tr>
+<td>Entregar a vida</td>
+<td><a href="#cat-santos">Entrega e abandono</a> · <a href="#consagracao-margarida">Consagração ao Sagrado Coração</a></td>
+</tr>
+<tr>
+<td>Rezar por alguém</td>
+<td><a href="#cat-intercessao">Intercessão</a></td>
+</tr>
+<tr>
+<td>Rezar em grupo, alternado</td>
+<td><a href="#cat-ladainhas">Ladainhas</a> · <a href="#bendito-seja-deus">Bendito seja Deus</a> · <a href="#terco-misericordia">Terço da Misericórdia</a></td>
+</tr>
+<tr>
+<td>Rezar em silêncio, com frases curtas</td>
+<td><a href="#cat-jaculatorias">Jaculatórias</a></td>
+</tr>
+<tr>
+<td>Rezar em latim</td>
+<td><a href="#cat-latim">Orações em latim</a></td>
+</tr>
+<tr>
+<td>Encerrar</td>
+<td><a href="#cat-rito">Bênção</a> · <a href="#cat-encerramento">Encerramento</a></td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><a id="cat-rito"></a></p>
+<h2>1. Rito de exposição e bênção</h2>
+<p><em>Hinos e orações próprios do rito da exposição e da bênção eucarística.</em></p>
+<p><a id="o-salutaris"></a></p>
+<h3>1.1 Ó Hóstia salutar — <em>O salutaris Hostia</em></h3>
+<p><em>Hino de Santo Tomás de Aquino, tradicionalmente cantado enquanto se expõe o Santíssimo.</em></p>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>O salutaris Hostia,<br />
+quae caeli pandis ostium:<br />
+bella premunt hostilia,<br />
+da robur, fer auxilium.</p>
+<p>Uni trinoque Domino<br />
+sit sempiterna gloria,<br />
+qui vitam sine termino<br />
+nobis donet in patria. Amen.</p>
+</blockquote>
+<p><strong>Tradução</strong></p>
+<blockquote>
+<p>Ó Hóstia salutar,<br />
+que abris a porta do céu:<br />
+o inimigo nos aperta com a guerra;<br />
+dai-nos força, trazei-nos auxílio.</p>
+<p>Ao Senhor uno e trino<br />
+seja dada glória sem fim;<br />
+e que Ele nos dê na pátria<br />
+a vida que não termina. Amém.</p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="tantum-ergo"></a></p>
+<h3>1.2 Tão sublime Sacramento — <em>Tantum ergo</em></h3>
+<p><em>São as duas últimas estrofes do hino</em> Pange lingua <em>(Santo Tomás de Aquino). Canta-se antes da bênção, com incensação.</em></p>
+<p><strong>Português</strong></p>
+<blockquote>
+<p>Tão sublime Sacramento<br />
+adoremos neste altar,<br />
+pois o Antigo Testamento<br />
+deu ao Novo seu lugar.<br />
+Venha a fé, por suplemento,<br />
+os sentidos completar.</p>
+<p>Ao eterno Pai cantemos<br />
+e a Jesus, o Salvador.<br />
+Ao Espírito exaltemos,<br />
+na Trindade, eterno amor.<br />
+Ao Deus uno e trino demos<br />
+a alegria do louvor. Amém.</p>
+</blockquote>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Tantum ergo Sacramentum<br />
+veneremur cernui:<br />
+et antiquum documentum<br />
+novo cedat ritui:<br />
+praestet fides supplementum<br />
+sensuum defectui.</p>
+<p>Genitori, Genitoque<br />
+laus et iubilatio,<br />
+salus, honor, virtus quoque<br />
+sit et benedictio:<br />
+procedenti ab utroque<br />
+compar sit laudatio. Amen.</p>
+</blockquote>
+<p>℣. Do céu lhes destes o pão. <em>(No Tempo Pascal: Aleluia.)</em><br />
+℟. Que contém todo o sabor. <em>(Aleluia.)</em></p>
+<p>℣. <em>Panem de caelo praestitisti eis.</em><br />
+℟. <em>Omne delectamentum in se habentem.</em></p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="oracao-bencao"></a></p>
+<h3>1.3 Oração da bênção</h3>
+<p><em>Rezada pelo sacerdote ou diácono logo após o</em> Tantum ergo<em>, antes de dar a bênção com o ostensório.</em></p>
+<p><strong>Oremos.</strong> Senhor Jesus Cristo, neste admirável sacramento nos deixastes o memorial da vossa Paixão. Concedei-nos venerar com tão grande amor o mistério do vosso Corpo e do vosso Sangue, que possamos colher continuamente os frutos da vossa redenção. Vós, que viveis e reinais para sempre.<br />
+℟. Amém.</p>
+<p><strong>Latim:</strong> <em>Oremus. Deus, qui nobis sub Sacramento mirabili passionis tuae memoriam reliquisti: tribue, quaesumus, ita nos Corporis et Sanguinis tui sacra mysteria venerari, ut redemptionis tuae fructum in nobis iugiter sentiamus. Qui vivis et regnas in saecula saeculorum.</em> ℟. <em>Amen.</em></p>
+<p><em>Segue-se a bênção em silêncio, com o ostensório.</em></p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="bendito-seja-deus"></a></p>
+<h3>1.4 Louvores de reparação — “Bendito seja Deus”</h3>
+<p><em>Rezados logo após a bênção, em reparação às blasfêmias. Quem dirige diz cada invocação e todos repetem.</em></p>
+<p>Bendito seja Deus.<br />
+Bendito seja o seu santo Nome.<br />
+Bendito seja Jesus Cristo, verdadeiro Deus e verdadeiro homem.<br />
+Bendito seja o Nome de Jesus.<br />
+Bendito seja o seu sacratíssimo Coração.<br />
+Bendito seja o seu preciosíssimo Sangue.<br />
+Bendito seja Jesus no Santíssimo Sacramento do altar.<br />
+Bendito seja o Espírito Santo Paráclito.<br />
+Bendita seja a grande Mãe de Deus, Maria Santíssima.<br />
+Bendita seja a sua santa e imaculada Conceição.<br />
+Bendita seja a sua gloriosa Assunção.<br />
+Bendito seja o nome de Maria, Virgem e Mãe.<br />
+Bendito seja São José, seu castíssimo esposo.<br />
+Bendito seja Deus nos seus anjos e nos seus santos.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="gracas-e-louvores"></a></p>
+<h3>1.5 Graças e louvores</h3>
+<p><em>Aclamação tradicional; pode abrir e fechar a adoração, ou ser repetida entre outras orações.</em></p>
+<p>℣. Graças e louvores se deem a todo momento<br />
+℟. ao Santíssimo e diviníssimo Sacramento.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="laudate-dominum"></a></p>
+<h3>1.6 Salmo 117 — <em>Laudate Dominum</em></h3>
+<p><em>Cantado tradicionalmente enquanto o Santíssimo é reposto no sacrário.</em></p>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Laudate Dominum, omnes gentes;<br />
+laudate eum, omnes populi.<br />
+Quoniam confirmata est super nos misericordia eius,<br />
+et veritas Domini manet in aeternum.<br />
+Gloria Patri, et Filio, et Spiritui Sancto.<br />
+Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.</p>
+</blockquote>
+<p><strong>Tradução</strong></p>
+<blockquote>
+<p>Louvai o Senhor, todas as nações;<br />
+glorificai-o, todos os povos.<br />
+Porque é firme o seu amor para conosco,<br />
+e a fidelidade do Senhor permanece para sempre.<br />
+Glória ao Pai, ao Filho e ao Espírito Santo.<br />
+Como era no princípio, agora e sempre. Amém.</p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-inicio"></a></p>
+<h2>2. Orações iniciais e de chegada</h2>
+<p><a id="sinal-da-cruz"></a></p>
+<h3>2.1 Sinal da Cruz</h3>
+<p><em>Ao chegar diante do Santíssimo exposto, faz-se a genuflexão (dupla ou simples, conforme o costume local) e o sinal da cruz.</em></p>
+<p>Pelo sinal da Santa Cruz, livrai-nos, Deus, nosso Senhor, dos nossos inimigos. Em nome do Pai, e do Filho, e do Espírito Santo. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="vinde-espirito-santo"></a></p>
+<h3>2.2 Vinde, Espírito Santo</h3>
+<p>Vinde, Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor.</p>
+<p>℣. Enviai o vosso Espírito e tudo será criado.<br />
+℟. E renovareis a face da terra.</p>
+<p><strong>Oremos.</strong> Ó Deus, que instruístes os corações dos vossos fiéis com a luz do Espírito Santo, concedei-nos que, no mesmo Espírito, saibamos o que é reto e gozemos sempre da sua consolação. Por Cristo, Senhor nosso. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="anjo-meu-deus"></a></p>
+<h3>2.3 Oração do Anjo de Portugal — “Meu Deus, eu creio”</h3>
+<p><em>Ensinada pelo Anjo da Paz aos três pastorinhos de Fátima (1916). Reza-se três vezes, de preferência prostrado ou de joelhos.</em></p>
+<p>Meu Deus, eu creio, adoro, espero e amo-vos.<br />
+Peço-vos perdão para os que não creem, não adoram, não esperam e não vos amam. <em>(3×)</em></p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="nos-vos-adoramos"></a></p>
+<h3>2.4 Saudação de São Francisco — “Nós vos adoramos”</h3>
+<p><em>Do Testamento de São Francisco de Assis.</em></p>
+<p>Nós vos adoramos, Santíssimo Senhor Jesus Cristo, aqui e em todas as vossas igrejas que estão no mundo inteiro, e vos bendizemos, porque pela vossa santa cruz remistes o mundo.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="visita-santo-afonso"></a></p>
+<h3>2.5 Visita ao Santíssimo Sacramento (Santo Afonso Maria de Ligório)</h3>
+<p>Senhor meu Jesus Cristo, que, pelo amor que tendes aos homens, estais noite e dia neste Sacramento, cheio de piedade e de amor, esperando, chamando e acolhendo a todos os que vêm visitar-vos: eu creio que estais presente no Santíssimo Sacramento do altar.</p>
+<p>Adoro-vos do abismo do meu nada e vos dou graças por todos os benefícios que me tendes feito, especialmente por vos terdes dado todo a mim neste Sacramento, por me terdes dado por advogada a vossa Mãe Santíssima, Maria, e por me terdes chamado a visitar-vos nesta igreja.</p>
+<p>Saúdo hoje o vosso amantíssimo Coração e quero saudá-lo por três fins: primeiro, em agradecimento por este grande dom; segundo, para vos compensar de todas as injúrias que recebeis neste Sacramento de todos os vossos inimigos; terceiro, para vos adorar, com esta visita, em todos os lugares da terra onde estais sacramentado com menos culto e mais abandonado.</p>
+<p>Meu Jesus, amo-vos de todo o coração. Arrependo-me de ter ofendido tantas vezes a vossa bondade infinita. Proponho, com o auxílio da vossa graça, nunca mais vos ofender. E agora, miserável como sou, consagro-me todo a vós; renuncio a toda a minha vontade, aos meus afetos, aos meus desejos e a tudo o que me pertence. De hoje em diante, disponde de mim e de tudo o que é meu como vos aprouver. Só vos peço e quero o vosso santo amor, a perseverança final e o perfeito cumprimento da vossa vontade.</p>
+<p>Recomendo-vos as almas do purgatório, especialmente as mais devotas do Santíssimo Sacramento e de Maria Santíssima. Recomendo-vos também todos os pobres pecadores.</p>
+<p>Finalmente, meu amado Salvador, uno todos os meus afetos aos afetos do vosso amorosíssimo Coração e, assim unidos, ofereço-os ao vosso eterno Pai, e lhe peço, em vosso nome, que por vosso amor os aceite e atenda. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-basicas"></a></p>
+<h2>3. Orações básicas</h2>
+<p><a id="pai-nosso"></a></p>
+<h3>3.1 Pai-Nosso</h3>
+<p>Pai nosso, que estais nos céus, santificado seja o vosso nome; venha a nós o vosso reino; seja feita a vossa vontade, assim na terra como no céu. O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em tentação, mas livrai-nos do mal. Amém.</p>
+<p><a id="ave-maria"></a></p>
+<h3>3.2 Ave-Maria</h3>
+<p>Ave, Maria, cheia de graça, o Senhor é convosco; bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém.</p>
+<p><a id="gloria"></a></p>
+<h3>3.3 Glória</h3>
+<p>Glória ao Pai, e ao Filho, e ao Espírito Santo. Como era no princípio, agora e sempre. Amém.</p>
+<p><a id="creio"></a></p>
+<h3>3.4 Creio (Símbolo dos Apóstolos)</h3>
+<p>Creio em Deus Pai todo-poderoso, criador do céu e da terra; e em Jesus Cristo, seu único Filho, nosso Senhor, que foi concebido pelo poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos mortos; ressuscitou ao terceiro dia; subiu aos céus; está sentado à direita de Deus Pai todo-poderoso, de onde há de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na santa Igreja Católica, na comunhão dos santos, na remissão dos pecados, na ressurreição da carne, na vida eterna. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-atos"></a></p>
+<h2>4. Atos das virtudes</h2>
+<p><a id="ato-fe"></a></p>
+<h3>4.1 Ato de fé</h3>
+<p>Eu creio firmemente que há um só Deus em três Pessoas realmente distintas: Pai, Filho e Espírito Santo. Creio que o Filho de Deus se fez homem, padeceu e morreu na cruz para nos salvar, e ao terceiro dia ressuscitou. Creio em tudo o mais que crê e ensina a santa Igreja Católica, porque Deus, verdade infalível, o revelou. Nesta fé quero viver e morrer. Amém.</p>
+<p><a id="ato-fe-eucaristia"></a></p>
+<h3>4.2 Ato de fé na presença real</h3>
+<p>Meu Senhor Jesus Cristo, eu creio firmemente que estais aqui, verdadeira, real e substancialmente presente na Santíssima Eucaristia, com o vosso Corpo, Sangue, Alma e Divindade. Creio porque vós o dissestes: <em>“Isto é o meu Corpo… este é o meu Sangue”</em>, e vossa palavra não passa. Meus olhos veem apenas a aparência do pão, mas a fé me diz que sois vós, meu Senhor e meu Deus. Aumentai a minha fé. Amém.</p>
+<p><a id="ato-esperanca"></a></p>
+<h3>4.3 Ato de esperança</h3>
+<p>Eu espero, meu Deus, com firme confiança, que, pelos merecimentos de meu Senhor Jesus Cristo, me dareis a salvação eterna e as graças necessárias para alcançá-la, porque vós, sumamente bom e poderoso, o prometestes a quem observar fielmente os vossos mandamentos, como eu proponho fazer com o vosso auxílio. Amém.</p>
+<p><a id="ato-caridade"></a></p>
+<h3>4.4 Ato de caridade</h3>
+<p>Eu vos amo, meu Deus, de todo o meu coração e sobre todas as coisas, porque sois infinitamente bom e amável; e antes quero perder tudo do que vos ofender. Por amor de vós, amo o meu próximo como a mim mesmo. Amém.</p>
+<p><a id="ato-contricao"></a></p>
+<h3>4.5 Ato de contrição</h3>
+<p><strong>Forma longa</strong></p>
+<p>Senhor meu Jesus Cristo, Deus e homem verdadeiro, Criador e Redentor meu, por serdes vós quem sois, sumamente bom e digno de ser amado sobre todas as coisas, e porque vos amo e estimo, pesa-me, Senhor, de todo o meu coração, por vos ter ofendido; pesa-me também por ter perdido o céu e merecido o inferno. E proponho firmemente, ajudado com o auxílio da vossa divina graça, emendar-me e nunca mais vos tornar a ofender, e espero alcançar o perdão de minhas culpas pela vossa infinita misericórdia. Amém.</p>
+<p><strong>Forma breve</strong></p>
+<p>Meu Deus, eu me arrependo de todo o coração de vos ter ofendido, porque sois tão bom e tão amável. Prometo, com a vossa graça, esforçar-me para ser bom. Meu Jesus, misericórdia!</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-adoracao"></a></p>
+<h2>5. Adoração e louvor</h2>
+<p><a id="adoro-te"></a></p>
+<h3>5.1 Adoro-vos devotamente — <em>Adoro te devote</em></h3>
+<p><em>Hino de Santo Tomás de Aquino (séc. XIII). Pode ser rezado devagar, uma estrofe por vez, com silêncio entre elas.</em></p>
+<p><strong>Tradução</strong></p>
+<ol>
+<li>Eu vos adoro devotamente, ó Divindade escondida, que verdadeiramente vos ocultais sob estas aparências. A vós meu coração se submete todo inteiro, porque, ao contemplar-vos, tudo desfalece.</li>
+<li>A vista, o tato e o gosto em vós se enganam; só pelo ouvido se crê com segurança. Creio em tudo o que disse o Filho de Deus: nada é mais verdadeiro que esta Palavra da Verdade.</li>
+<li>Na cruz se escondia somente a Divindade; aqui se esconde também a humanidade. Crendo e confessando ambas, peço o que pediu o ladrão arrependido.</li>
+<li>Não vejo as chagas, como as viu Tomé; contudo, confesso que sois o meu Deus. Fazei que eu creia cada vez mais em vós, que em vós espere e que vos ame.</li>
+<li>Ó memorial da morte do Senhor! Pão vivo, que dais a vida ao homem! Concedei à minha alma viver de vós e saborear sempre a vossa doçura.</li>
+<li>Piedoso Pelicano, Senhor Jesus, purificai-me, a mim, impuro, com o vosso Sangue, do qual uma só gota pode salvar o mundo inteiro de todo pecado.</li>
+<li>Ó Jesus, que agora contemplo escondido, peço que se realize o que tanto desejo: que, vendo-vos face a face, eu seja feliz na visão da vossa glória. Amém.</li>
+</ol>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Adoro te devote, latens Deitas,<br />
+quae sub his figuris vere latitas:<br />
+tibi se cor meum totum subiicit,<br />
+quia te contemplans totum deficit.</p>
+<p>Visus, tactus, gustus in te fallitur,<br />
+sed auditu solo tuto creditur;<br />
+credo quidquid dixit Dei Filius:<br />
+nil hoc verbo Veritatis verius.</p>
+<p>In cruce latebat sola Deitas,<br />
+at hic latet simul et humanitas;<br />
+ambo tamen credens atque confitens,<br />
+peto quod petivit latro paenitens.</p>
+<p>Plagas, sicut Thomas, non intueor;<br />
+Deum tamen meum te confiteor;<br />
+fac me tibi semper magis credere,<br />
+in te spem habere, te diligere.</p>
+<p>O memoriale mortis Domini!<br />
+Panis vivus, vitam praestans homini!<br />
+Praesta meae menti de te vivere<br />
+et te illi semper dulce sapere.</p>
+<p>Pie pellicane, Iesu Domine,<br />
+me immundum munda tuo sanguine,<br />
+cuius una stilla salvum facere<br />
+totum mundum quit ab omni scelere.</p>
+<p>Iesu, quem velatum nunc aspicio,<br />
+oro fiat illud quod tam sitio:<br />
+ut te revelata cernens facie,<br />
+visu sim beatus tuae gloriae. Amen.</p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="ave-verum"></a></p>
+<h3>5.2 Salve, verdadeiro Corpo — <em>Ave verum Corpus</em></h3>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Ave verum Corpus, natum de Maria Virgine,<br />
+vere passum, immolatum in cruce pro homine,<br />
+cuius latus perforatum fluxit aqua et sanguine:<br />
+esto nobis praegustatum in mortis examine.<br />
+O Iesu dulcis! O Iesu pie! O Iesu, fili Mariae!</p>
+</blockquote>
+<p><strong>Tradução</strong></p>
+<blockquote>
+<p>Salve, ó verdadeiro Corpo, nascido da Virgem Maria,<br />
+que verdadeiramente padeceu e foi imolado na cruz pelo homem;<br />
+de cujo lado traspassado correram água e sangue:<br />
+sede para nós antegozo do céu na hora da morte.<br />
+Ó doce Jesus! Ó piedoso Jesus! Ó Jesus, Filho de Maria!</p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="o-sacrum-convivium"></a></p>
+<h3>5.3 Ó sagrado banquete — <em>O sacrum convivium</em></h3>
+<p><em>Antífona de Santo Tomás de Aquino.</em></p>
+<p><strong>Latim:</strong> <em>O sacrum convivium, in quo Christus sumitur: recolitur memoria passionis eius, mens impletur gratia, et futurae gloriae nobis pignus datur. Alleluia.</em></p>
+<p><strong>Tradução:</strong> Ó sagrado banquete, em que Cristo é recebido, se renova a memória da sua Paixão, a alma se enche de graça e nos é dado o penhor da glória futura. Aleluia.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="panis-angelicus"></a></p>
+<h3>5.4 Pão dos anjos — <em>Panis angelicus</em></h3>
+<p><em>Penúltima estrofe do hino</em> Sacris solemniis <em>(Santo Tomás de Aquino).</em></p>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Panis angelicus fit panis hominum;<br />
+dat panis caelicus figuris terminum:<br />
+O res mirabilis! Manducat Dominum<br />
+pauper, servus et humilis.</p>
+<p>Te trina Deitas unaque poscimus:<br />
+sic nos tu visita, sicut te colimus;<br />
+per tuas semitas duc nos quo tendimus,<br />
+ad lucem quam inhabitas. Amen.</p>
+</blockquote>
+<p><strong>Tradução</strong></p>
+<blockquote>
+<p>O pão dos anjos torna-se pão dos homens;<br />
+o pão do céu põe fim às figuras antigas.<br />
+Ó maravilha! Alimenta-se do Senhor<br />
+o pobre, o servo e o humilde.</p>
+<p>A vós, Deus uno e trino, suplicamos:<br />
+visitai-nos, assim como vos adoramos;<br />
+por vossos caminhos conduzi-nos aonde tendemos,<br />
+à luz em que habitais. Amém.</p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="pange-lingua"></a></p>
+<h3>5.5 Canta, ó língua — <em>Pange lingua</em></h3>
+<p><em>Hino de Santo Tomás de Aquino para Corpus Christi e Quinta-feira Santa. As duas últimas estrofes formam o <a href="#tantum-ergo">Tantum ergo</a>.</em></p>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Pange, lingua, gloriosi<br />
+Corporis mysterium,<br />
+Sanguinisque pretiosi,<br />
+quem in mundi pretium<br />
+fructus ventris generosi<br />
+Rex effudit gentium.</p>
+<p>Nobis datus, nobis natus<br />
+ex intacta Virgine,<br />
+et in mundo conversatus,<br />
+sparso verbi semine,<br />
+sui moras incolatus<br />
+miro clausit ordine.</p>
+<p>In supremae nocte cenae<br />
+recumbens cum fratribus,<br />
+observata lege plene<br />
+cibis in legalibus,<br />
+cibum turbae duodenae<br />
+se dat suis manibus.</p>
+<p>Verbum caro, panem verum<br />
+verbo carnem efficit:<br />
+fitque sanguis Christi merum,<br />
+et si sensus deficit,<br />
+ad firmandum cor sincerum<br />
+sola fides sufficit.</p>
+<p><em>(seguem-se as estrofes</em> Tantum ergo <em>e</em> Genitori<em>)</em></p>
+</blockquote>
+<p><strong>Tradução (literal)</strong></p>
+<ol>
+<li>Canta, ó língua, o mistério do Corpo glorioso e do Sangue precioso que, como resgate do mundo, o Rei dos povos, fruto de um ventre generoso, derramou.</li>
+<li>A nós foi dado, para nós nasceu de uma Virgem intacta; e, tendo vivido no mundo e espalhado a semente da Palavra, encerrou de modo admirável o tempo da sua morada entre nós.</li>
+<li>Na noite da última ceia, reclinado à mesa com os irmãos, observada plenamente a Lei nos alimentos prescritos, dá-se a si mesmo, com as próprias mãos, como alimento aos Doze.</li>
+<li>O Verbo feito carne, com sua palavra, faz do pão verdadeiro a sua carne, e o vinho torna-se o Sangue de Cristo; e, se os sentidos falham, para firmar um coração sincero basta somente a fé.</li>
+</ol>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="te-deum"></a></p>
+<h3>5.6 Te Deum — “A vós, ó Deus, louvamos”</h3>
+<p><em>Hino de ação de graças da Igreja (séc. IV). Tradução livre.</em></p>
+<p>A vós, ó Deus, louvamos; a vós, Senhor, reconhecemos.<br />
+A vós, Pai eterno, venera toda a terra.<br />
+A vós todos os anjos, os céus e todas as potestades,<br />
+a vós os querubins e serafins proclamam sem cessar:<br />
+Santo, Santo, Santo, Senhor Deus do universo!<br />
+O céu e a terra estão cheios da vossa glória.<br />
+A vós louva o glorioso coro dos Apóstolos,<br />
+a vós louva a admirável multidão dos Profetas,<br />
+a vós louva o exército resplandecente dos Mártires.<br />
+A vós, por toda a terra, proclama a santa Igreja:<br />
+Pai de imensa majestade;<br />
+vosso adorável, verdadeiro e único Filho;<br />
+e o Espírito Santo Consolador.<br />
+Vós sois o Rei da glória, ó Cristo;<br />
+vós sois o Filho eterno do Pai.<br />
+Para libertar o homem, não recusastes o seio da Virgem.<br />
+Vencido o aguilhão da morte, abristes aos que creem o Reino dos céus.<br />
+Estais sentado à direita de Deus, na glória do Pai.<br />
+Cremos que haveis de vir como juiz.<br />
+Por isso vos pedimos: socorrei os vossos servos,<br />
+que remistes com o vosso precioso Sangue.<br />
+Fazei que sejamos contados com os vossos santos na glória eterna.</p>
+<p>Salvai, Senhor, o vosso povo e abençoai a vossa herança.<br />
+Governai-o e exaltai-o para sempre.<br />
+Todos os dias vos bendizemos<br />
+e louvamos o vosso nome pelos séculos dos séculos.<br />
+Dignai-vos, Senhor, neste dia, guardar-nos sem pecado.<br />
+Tende piedade de nós, Senhor, tende piedade de nós.<br />
+Desça sobre nós, Senhor, a vossa misericórdia, como esperamos em vós.<br />
+Em vós, Senhor, esperei: não serei confundido para sempre.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="anjo-santissima-trindade"></a></p>
+<h3>5.7 Oração do Anjo — “Santíssima Trindade”</h3>
+<p><em>Ensinada pelo Anjo em Fátima (outono de 1916), quando deu a Comunhão aos pastorinhos.</em></p>
+<p>Santíssima Trindade, Pai, Filho e Espírito Santo, adoro-vos profundamente e ofereço-vos o preciosíssimo Corpo, Sangue, Alma e Divindade de Jesus Cristo, presente em todos os sacrários da terra, em reparação dos ultrajes, sacrilégios e indiferenças com que Ele mesmo é ofendido. E, pelos méritos infinitos do seu Santíssimo Coração e do Coração Imaculado de Maria, peço-vos a conversão dos pobres pecadores. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="fatima-eucaristica"></a></p>
+<h3>5.8 Oração eucarística de Fátima</h3>
+<p><em>Brotou dos lábios dos pastorinhos na aparição de 13 de maio de 1917.</em></p>
+<p>Ó Santíssima Trindade, eu vos adoro! Meu Deus, meu Deus, eu vos amo no Santíssimo Sacramento!</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-comunhao"></a></p>
+<h2>6. Comunhão espiritual</h2>
+<p><em>A comunhão espiritual é o desejo ardente de receber Jesus Sacramentado quando não se pode comungar sacramentalmente. É muito recomendada durante a adoração.</em></p>
+<p><a id="comunhao-santo-afonso"></a></p>
+<h3>6.1 Comunhão espiritual de Santo Afonso</h3>
+<p>Meu Jesus, eu creio que estais presente no Santíssimo Sacramento do altar. Amo-vos sobre todas as coisas e minha alma suspira por vós. Mas, como não posso receber-vos agora no Santíssimo Sacramento, vinde ao menos espiritualmente ao meu coração. Abraço-me convosco como se já estivésseis comigo; uno-me convosco inteiramente. Ah! Não permitais que torne a separar-me de vós. Amém.</p>
+<p><a id="comunhao-aos-vossos-pes"></a></p>
+<h3>6.2 Comunhão espiritual “Aos vossos pés, ó meu Jesus”</h3>
+<p><em>Atribuída ao Cardeal Rafael Merry del Val.</em></p>
+<p>Aos vossos pés, ó meu Jesus, me prostro e vos ofereço o arrependimento do meu coração contrito, que se abisma no seu nada diante da vossa santa presença. Adoro-vos no Sacramento do vosso amor, a inefável Eucaristia. Desejo receber-vos na pobre morada que o meu coração vos oferece. Enquanto espero a felicidade da comunhão sacramental, quero possuir-vos em espírito. Vinde a mim, ó meu Jesus, já que eu vou a vós. Que o vosso amor inflame todo o meu ser, na vida e na morte. Creio em vós, espero em vós, amo-vos. Amém.</p>
+<p><a id="comunhao-breve"></a></p>
+<h3>6.3 Comunhão espiritual breve</h3>
+<p>Senhor, eu não sou digno de que entreis em minha morada, mas dizei uma só palavra e serei salvo.<br />
+Jesus, eu vos amo; vinde ao meu coração. Amém.</p>
+<p><a id="alma-de-cristo"></a></p>
+<h3>6.4 Alma de Cristo — <em>Anima Christi</em></h3>
+<p><em>Oração do século XIV, muito amada por Santo Inácio de Loyola.</em></p>
+<p>Alma de Cristo, santificai-me.<br />
+Corpo de Cristo, salvai-me.<br />
+Sangue de Cristo, inebriai-me.<br />
+Água do lado de Cristo, lavai-me.<br />
+Paixão de Cristo, confortai-me.<br />
+Ó bom Jesus, ouvi-me.<br />
+Dentro das vossas chagas, escondei-me.<br />
+Não permitais que eu me separe de vós.<br />
+Do espírito maligno, defendei-me.<br />
+Na hora da minha morte, chamai-me<br />
+e mandai-me ir para vós,<br />
+para que, com os vossos santos, vos louve<br />
+por todos os séculos dos séculos. Amém.</p>
+<p><strong>Latim</strong></p>
+<blockquote>
+<p>Anima Christi, sanctifica me.<br />
+Corpus Christi, salva me.<br />
+Sanguis Christi, inebria me.<br />
+Aqua lateris Christi, lava me.<br />
+Passio Christi, conforta me.<br />
+O bone Iesu, exaudi me.<br />
+Intra tua vulnera absconde me.<br />
+Ne permittas me separari a te.<br />
+Ab hoste maligno defende me.<br />
+In hora mortis meae voca me,<br />
+et iube me venire ad te,<br />
+ut cum Sanctis tuis laudem te<br />
+in saecula saeculorum. Amen.</p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-reparacao"></a></p>
+<h2>7. Reparação e desagravo</h2>
+<p><a id="ato-reparacao"></a></p>
+<h3>7.1 Ato de reparação ao Sagrado Coração de Jesus (“Dulcíssimo Jesus”)</h3>
+<p><em>Do Papa Pio XI (encíclica</em> Miserentissimus Redemptor<em>, 1928). Próprio da solenidade do Sagrado Coração e das primeiras sextas-feiras.</em></p>
+<p>Dulcíssimo Jesus, cuja infinita caridade para com os homens é por eles tão ingratamente correspondida com esquecimentos, friezas e desprezos, eis-nos aqui prostrados diante do vosso altar, para vos desagravarmos, com especiais homenagens, da insensibilidade tão insensata e das nefandas injúrias com que de toda parte é alvejado o vosso amorosíssimo Coração.</p>
+<p>Reconhecendo, porém, com a mais profunda dor, que também nós mais de uma vez cometemos as mesmas indignidades, para nós, em primeiro lugar, imploramos a vossa misericórdia, prontos a expiar não só as próprias culpas, mas também as daqueles que, errando longe do caminho da salvação, se obstinam na sua infidelidade, não vos querendo como Pastor e Guia, ou, calcando aos pés as promessas do Batismo, sacudiram o suavíssimo jugo da vossa santa lei.</p>
+<p>De todos esses tão deploráveis crimes, Senhor, queremos hoje desagravar-vos, mas particularmente da licença dos costumes e da imodéstia, de tantos laços de corrupção armados à inocência, da violação dos dias santificados, das execrandas blasfêmias contra vós e os vossos santos, dos insultos ao vosso Vigário e a todo o vosso clero, do desprezo e das horrendas e sacrílegas profanações do Sacramento do divino amor e, enfim, dos atentados e rebeldias das nações contra os direitos e o magistério da vossa Igreja.</p>
+<p>Oh! Se pudéssemos lavar com o próprio sangue tantas iniquidades! Entretanto, para reparar a honra divina ultrajada, vos oferecemos, juntamente com os merecimentos da Virgem Mãe, de todos os santos e almas piedosas, aquela infinita satisfação que vós oferecestes ao eterno Pai sobre a cruz e que não cessais de renovar todos os dias sobre os nossos altares.</p>
+<p>Ajudai-nos, Senhor, com o auxílio da vossa graça, para que possamos, como é nosso firme propósito, com a viveza da fé, com a pureza dos costumes, com a fiel observância da lei e da caridade evangélica, reparar todos os pecados cometidos por nós e por nossos próximos, impedir por todos os meios novas injúrias à vossa divina Majestade e atrair ao vosso serviço o maior número possível de almas.</p>
+<p>Recebei, ó benigníssimo Jesus, pelas mãos de Maria Santíssima Reparadora, a espontânea homenagem deste desagravo, e concedei-nos a grande graça de perseverarmos constantes, até a morte, no fiel cumprimento dos nossos deveres e no vosso santo serviço, para que possamos chegar todos à pátria bem-aventurada, onde vós, com o Pai e o Espírito Santo, viveis e reinais, Deus, por todos os séculos dos séculos. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="o-jesus-por-vosso-amor"></a></p>
+<h3>7.2 Oferecimento de Fátima — “Ó Jesus, é por vosso amor”</h3>
+<p><em>Ensinado por Nossa Senhora em 13 de julho de 1917, para oferecer os sacrifícios.</em></p>
+<p>Ó Jesus, é por vosso amor, pela conversão dos pecadores e em reparação pelos pecados cometidos contra o Imaculado Coração de Maria.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="terco-misericordia"></a></p>
+<h3>7.3 Terço da Misericórdia</h3>
+<p><em>Ensinado por Jesus a Santa Faustina Kowalska. Reza-se num terço comum. É muito apropriado diante do Santíssimo, pois oferece ao Pai o Corpo e Sangue de Cristo.</em></p>
+<p><strong>Início:</strong> Sinal da Cruz · <a href="#pai-nosso">Pai-Nosso</a> · <a href="#ave-maria">Ave-Maria</a> · <a href="#creio">Creio</a>.</p>
+<p><em>(Opcional)</em> Ó Sangue e Água que jorrastes do Coração de Jesus como fonte de misericórdia para nós, eu confio em vós! <em>(3×)</em></p>
+<p><strong>Nas contas grandes (do Pai-Nosso):</strong><br />
+Eterno Pai, eu vos ofereço o Corpo e o Sangue, a Alma e a Divindade de vosso diletíssimo Filho, Nosso Senhor Jesus Cristo, em expiação dos nossos pecados e dos do mundo inteiro.</p>
+<p><strong>Nas contas pequenas (das Ave-Marias), 10×:</strong><br />
+Pela sua dolorosa Paixão, tende misericórdia de nós e do mundo inteiro.</p>
+<p><em>Repete-se por cinco dezenas.</em></p>
+<p><strong>Ao final (3×):</strong><br />
+Deus Santo, Deus Forte, Deus Imortal, tende piedade de nós e do mundo inteiro.</p>
+<p><strong>Conclusão:</strong> Jesus, eu confio em vós!</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-gracas"></a></p>
+<h2>8. Ação de graças</h2>
+<p><a id="santo-tomas-gracas"></a></p>
+<h3>8.1 Oração de Santo Tomás de Aquino — “Graças vos dou”</h3>
+<p><em>Tradicionalmente rezada depois da Comunhão; serve também como ação de graças na adoração.</em></p>
+<p>Graças vos dou, Senhor santo, Pai todo-poderoso, Deus eterno, porque a mim, pecador, vosso indigno servo, sem mérito algum de minha parte, mas só pela condescendência da vossa misericórdia, vos dignastes saciar com o precioso Corpo e Sangue do vosso Filho, Nosso Senhor Jesus Cristo.</p>
+<p>Peço-vos que esta santa Comunhão não me seja motivo de condenação, mas salutar intercessão para o perdão. Seja para mim armadura da fé e escudo da boa vontade. Seja a extinção dos meus vícios, o fim da concupiscência e das más inclinações, o aumento da caridade e da paciência, da humildade e da obediência e de todas as virtudes; firme defesa contra as ciladas de todos os inimigos, visíveis e invisíveis; perfeita serenidade dos meus impulsos, tanto da carne como do espírito; firme adesão a vós, único e verdadeiro Deus, e feliz consumação do meu fim.</p>
+<p>E peço-vos que vos digneis conduzir-me, a mim, pecador, àquele inefável banquete onde vós, com o vosso Filho e o Espírito Santo, sois para os vossos santos luz verdadeira, saciedade plena, gozo eterno, alegria completa e felicidade perfeita. Pelo mesmo Cristo, Nosso Senhor. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="eis-me-aqui"></a></p>
+<h3>8.2 Oração diante do Crucifixo — “Eis-me aqui, ó bom e dulcíssimo Jesus”</h3>
+<p>Eis-me aqui, ó bom e dulcíssimo Jesus! De joelhos me prostro em vossa presença e vos peço e suplico, com todo o fervor da minha alma, que vos digneis gravar no meu coração os mais vivos sentimentos de fé, esperança e caridade, verdadeiro arrependimento dos meus pecados e firmíssimo propósito de emenda, enquanto vou considerando, com vivo afeto e dor, as vossas cinco chagas, tendo diante dos olhos aquilo que o profeta Davi já vos fazia dizer, ó bom Jesus: <em>“Traspassaram minhas mãos e meus pés; contaram todos os meus ossos”</em> (Sl 22,17-18).</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="magnificat"></a></p>
+<h3>8.3 Magnificat (Lc 1,46-55)</h3>
+<p>A minha alma glorifica o Senhor,<br />
+e o meu espírito exulta em Deus, meu Salvador,<br />
+porque olhou para a humildade da sua serva.<br />
+Desde agora todas as gerações me chamarão bem-aventurada,<br />
+porque o Todo-Poderoso fez em mim grandes coisas:<br />
+santo é o seu nome.<br />
+A sua misericórdia se estende de geração em geração<br />
+sobre aqueles que o temem.<br />
+Manifestou o poder do seu braço<br />
+e dispersou os soberbos de coração.<br />
+Derrubou do trono os poderosos<br />
+e exaltou os humildes.<br />
+Encheu de bens os famintos<br />
+e despediu os ricos de mãos vazias.<br />
+Acolheu Israel, seu servo,<br />
+lembrado da sua misericórdia,<br />
+como havia prometido a nossos pais,<br />
+em favor de Abraão e de sua descendência para sempre.<br />
+Glória ao Pai, ao Filho e ao Espírito Santo. Como era no princípio, agora e sempre. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-coracao"></a></p>
+<h2>9. Sagrado Coração de Jesus</h2>
+<p><em>Devoção intimamente ligada à Eucaristia: nas aparições a Santa Margarida Maria Alacoque, Jesus pediu a Comunhão reparadora das primeiras sextas-feiras e a Hora Santa.</em></p>
+<p><a id="consagracao-margarida"></a></p>
+<h3>9.1 Consagração ao Sagrado Coração (Santa Margarida Maria Alacoque)</h3>
+<p>Eu, <em>(nome)</em>, dou e consagro ao Sagrado Coração de Nosso Senhor Jesus Cristo a minha pessoa e a minha vida, as minhas ações, penas e sofrimentos, para não querer mais servir-me de nenhuma parte do meu ser senão para honrá-lo, amá-lo e glorificá-lo.</p>
+<p>É esta a minha vontade irrevogável: ser todo dele e fazer tudo por seu amor, renunciando de todo o coração a tudo o que lhe possa desagradar.</p>
+<p>Tomo-vos, pois, ó Sagrado Coração, por único objeto do meu amor, protetor da minha vida, garantia da minha salvação, remédio da minha fragilidade e inconstância, reparador de todas as faltas da minha vida e meu asilo seguro na hora da morte.</p>
+<p>Sede, ó Coração de bondade, a minha justificação diante de Deus, vosso Pai, e afastai de mim os castigos da sua justa ira. Ó Coração de amor, ponho em vós toda a minha confiança, porque tudo temo da minha malícia e fraqueza, mas tudo espero da vossa bondade.</p>
+<p>Consumi em mim tudo o que vos possa desagradar ou resistir. Que o vosso puro amor se imprima tão profundamente no meu coração, que jamais vos possa esquecer nem ser separado de vós. Peço-vos, por vossa bondade, que o meu nome seja escrito em vós, pois quero que toda a minha felicidade e toda a minha glória consistam em viver e morrer como vosso servo. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="ladainha-coracao"></a></p>
+<h3>9.2 Ladainha do Sagrado Coração de Jesus</h3>
+<p><em>Aprovada para toda a Igreja por Leão XIII (1899).</em></p>
+<p>Senhor, tende piedade de nós.<br />
+℟. Senhor, tende piedade de nós.<br />
+Jesus Cristo, tende piedade de nós.<br />
+℟. Jesus Cristo, tende piedade de nós.<br />
+Senhor, tende piedade de nós.<br />
+℟. Senhor, tende piedade de nós.<br />
+Jesus Cristo, ouvi-nos. ℟. Jesus Cristo, ouvi-nos.<br />
+Jesus Cristo, atendei-nos. ℟. Jesus Cristo, atendei-nos.</p>
+<p>Deus Pai do céu, ℟. <em>tende piedade de nós.</em><br />
+Deus Filho, Redentor do mundo,<br />
+Deus Espírito Santo,<br />
+Santíssima Trindade, que sois um só Deus,</p>
+<p><em>A cada invocação seguinte responde-se:</em> ℟. <strong>tende piedade de nós.</strong></p>
+<p>Coração de Jesus, Filho do Pai eterno,<br />
+Coração de Jesus, formado pelo Espírito Santo no seio da Virgem Mãe,<br />
+Coração de Jesus, substancialmente unido ao Verbo de Deus,<br />
+Coração de Jesus, de majestade infinita,<br />
+Coração de Jesus, templo santo de Deus,<br />
+Coração de Jesus, tabernáculo do Altíssimo,<br />
+Coração de Jesus, casa de Deus e porta do céu,<br />
+Coração de Jesus, fornalha ardente de caridade,<br />
+Coração de Jesus, receptáculo de justiça e de amor,<br />
+Coração de Jesus, cheio de bondade e de amor,<br />
+Coração de Jesus, abismo de todas as virtudes,<br />
+Coração de Jesus, digníssimo de todo louvor,<br />
+Coração de Jesus, rei e centro de todos os corações,<br />
+Coração de Jesus, no qual estão todos os tesouros da sabedoria e da ciência,<br />
+Coração de Jesus, no qual habita toda a plenitude da divindade,<br />
+Coração de Jesus, no qual o Pai pôs toda a sua complacência,<br />
+Coração de Jesus, de cuja plenitude todos nós recebemos,<br />
+Coração de Jesus, desejo das colinas eternas,<br />
+Coração de Jesus, paciente e cheio de misericórdia,<br />
+Coração de Jesus, rico para com todos os que vos invocam,<br />
+Coração de Jesus, fonte de vida e de santidade,<br />
+Coração de Jesus, propiciação por nossos pecados,<br />
+Coração de Jesus, saturado de opróbrios,<br />
+Coração de Jesus, esmagado de dor por causa dos nossos crimes,<br />
+Coração de Jesus, feito obediente até a morte,<br />
+Coração de Jesus, traspassado pela lança,<br />
+Coração de Jesus, fonte de toda consolação,<br />
+Coração de Jesus, nossa vida e ressurreição,<br />
+Coração de Jesus, nossa paz e reconciliação,<br />
+Coração de Jesus, vítima dos pecadores,<br />
+Coração de Jesus, salvação dos que esperam em vós,<br />
+Coração de Jesus, esperança dos que morrem em vós,<br />
+Coração de Jesus, delícia de todos os santos,</p>
+<p>Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>perdoai-nos, Senhor.</em><br />
+Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>ouvi-nos, Senhor.</em><br />
+Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>tende piedade de nós.</em></p>
+<p>℣. Jesus, manso e humilde de coração,<br />
+℟. fazei o nosso coração semelhante ao vosso.</p>
+<p><strong>Oremos.</strong> Deus todo-poderoso e eterno, olhai para o Coração do vosso Filho muito amado e para os louvores e satisfações que ele, em nome dos pecadores, vos oferece; e aos que imploram a vossa misericórdia concedei, benigno, o perdão, em nome do mesmo Jesus Cristo, vosso Filho, que convosco vive e reina, na unidade do Espírito Santo, por todos os séculos dos séculos. ℟. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-ladainhas"></a></p>
+<h2>10. Ladainhas</h2>
+<p><a id="ladainha-sangue"></a></p>
+<h3>10.1 Ladainha do Preciosíssimo Sangue de Nosso Senhor Jesus Cristo</h3>
+<p><em>Aprovada por São João XXIII (1960).</em></p>
+<p>Senhor, tende piedade de nós. ℟. Senhor, tende piedade de nós.<br />
+Jesus Cristo, tende piedade de nós. ℟. Jesus Cristo, tende piedade de nós.<br />
+Senhor, tende piedade de nós. ℟. Senhor, tende piedade de nós.<br />
+Jesus Cristo, ouvi-nos. ℟. Jesus Cristo, ouvi-nos.<br />
+Jesus Cristo, atendei-nos. ℟. Jesus Cristo, atendei-nos.</p>
+<p>Deus Pai do céu, ℟. <em>tende piedade de nós.</em><br />
+Deus Filho, Redentor do mundo,<br />
+Deus Espírito Santo,<br />
+Santíssima Trindade, que sois um só Deus,</p>
+<p><em>A cada invocação seguinte responde-se:</em> ℟. <strong>salvai-nos.</strong></p>
+<p>Sangue de Cristo, Filho Unigênito do Pai eterno,<br />
+Sangue de Cristo, Verbo de Deus encarnado,<br />
+Sangue de Cristo, do Novo e Eterno Testamento,<br />
+Sangue de Cristo, que correu sobre a terra na agonia,<br />
+Sangue de Cristo, derramado abundantemente na flagelação,<br />
+Sangue de Cristo, gotejando na coroação de espinhos,<br />
+Sangue de Cristo, derramado na cruz,<br />
+Sangue de Cristo, preço da nossa salvação,<br />
+Sangue de Cristo, sem o qual não há perdão,<br />
+Sangue de Cristo, bebida e purificação das almas na Eucaristia,<br />
+Sangue de Cristo, rio de misericórdia,<br />
+Sangue de Cristo, vencedor dos demônios,<br />
+Sangue de Cristo, fortaleza dos mártires,<br />
+Sangue de Cristo, virtude dos confessores,<br />
+Sangue de Cristo, que suscitais as virgens,<br />
+Sangue de Cristo, força dos tentados,<br />
+Sangue de Cristo, alívio dos que trabalham,<br />
+Sangue de Cristo, consolação dos que choram,<br />
+Sangue de Cristo, esperança dos penitentes,<br />
+Sangue de Cristo, conforto dos moribundos,<br />
+Sangue de Cristo, paz e doçura dos corações,<br />
+Sangue de Cristo, penhor da vida eterna,<br />
+Sangue de Cristo, que libertais as almas do purgatório,<br />
+Sangue de Cristo, digníssimo de toda honra e glória,</p>
+<p>Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>perdoai-nos, Senhor.</em><br />
+Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>ouvi-nos, Senhor.</em><br />
+Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>tende piedade de nós.</em></p>
+<p>℣. Remistes-nos, Senhor, com o vosso Sangue,<br />
+℟. e fizestes de nós um reino para o nosso Deus.</p>
+<p><strong>Oremos.</strong> Deus todo-poderoso e eterno, que constituístes o vosso Filho Unigênito Redentor do mundo e quisestes ser aplacado pelo seu Sangue, concedei-nos venerar o preço da nossa salvação e, pelo seu poder, ser defendidos dos males da vida presente, para gozarmos eternamente o seu fruto no céu. Pelo mesmo Cristo, Nosso Senhor. ℟. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="ladainha-eucaristica"></a></p>
+<h3>10.2 Ladainha eucarística (para uso devocional)</h3>
+<p><em>Ladainha de devoção privada, composta com títulos bíblicos e tradicionais da Eucaristia. Não é ladainha litúrgica oficial; pode ser usada livremente na adoração pessoal ou em grupo.</em></p>
+<p>Senhor, tende piedade de nós. ℟. Senhor, tende piedade de nós.<br />
+Cristo, tende piedade de nós. ℟. Cristo, tende piedade de nós.<br />
+Senhor, tende piedade de nós. ℟. Senhor, tende piedade de nós.</p>
+<p><em>A cada invocação responde-se:</em> ℟. <strong>tende piedade de nós.</strong></p>
+<p>Jesus, Pão vivo descido do céu (Jo 6,51),<br />
+Jesus, Pão da vida (Jo 6,35),<br />
+Jesus, Verbo feito carne que habita entre nós (Jo 1,14),<br />
+Jesus, Deus escondido e Salvador (Is 45,15),<br />
+Jesus, Cordeiro de Deus que tira o pecado do mundo (Jo 1,29),<br />
+Jesus, Sacerdote eterno segundo a ordem de Melquisedec (Sl 110,4),<br />
+Jesus, Sacrifício perfeito oferecido ao Pai,<br />
+Jesus, Maná escondido (Ap 2,17),<br />
+Jesus, Pão dos anjos e alimento dos peregrinos,<br />
+Jesus, Cálice da nova e eterna Aliança (Lc 22,20),<br />
+Jesus, memorial da vossa Paixão,<br />
+Jesus, Sacramento do amor e vínculo da caridade,<br />
+Jesus, sinal da unidade da Igreja (1Cor 10,17),<br />
+Jesus, remédio da nossa fraqueza,<br />
+Jesus, força dos tentados e consolo dos aflitos,<br />
+Jesus, companheiro dos que estão sozinhos,<br />
+Jesus, viático dos moribundos,<br />
+Jesus, penhor da glória futura,<br />
+Jesus, presente em todos os sacrários da terra,<br />
+Jesus, que permaneceis conosco todos os dias até o fim do mundo (Mt 28,20),</p>
+<p>Sede-nos propício, ℟. <em>perdoai-nos, Senhor.</em><br />
+Sede-nos propício, ℟. <em>ouvi-nos, Senhor.</em></p>
+<p><em>A cada invocação responde-se:</em> ℟. <strong>livrai-nos, Senhor.</strong></p>
+<p>Da indiferença diante da vossa presença,<br />
+Da comunhão recebida sem fé e sem amor,<br />
+De toda irreverência e profanação deste Sacramento,<br />
+Da tibieza e da distração na oração,<br />
+Do desejo desordenado das coisas do mundo,</p>
+<p><em>A cada invocação responde-se:</em> ℟. <strong>nós vos pedimos, ouvi-nos.</strong></p>
+<p>Que aumenteis em nós a fé na vossa presença real,<br />
+Que nos concedais fome e sede de vós,<br />
+Que santifiqueis os sacerdotes que vos tomam nas mãos,<br />
+Que envieis operários para a vossa messe,<br />
+Que reconduzais a vós os que se afastaram,<br />
+Que concedais o viático a todos os moribundos,<br />
+Que deis às almas do purgatório a visão da vossa face,</p>
+<p>Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>perdoai-nos, Senhor.</em><br />
+Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>ouvi-nos, Senhor.</em><br />
+Cordeiro de Deus, que tirais o pecado do mundo, ℟. <em>tende piedade de nós.</em></p>
+<p>℣. Do céu lhes destes o pão,<br />
+℟. que contém todo o sabor.</p>
+<p><em>Conclui-se com a <a href="#oracao-bencao">oração da bênção</a> “Senhor Jesus Cristo, neste admirável sacramento”.</em></p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-santos"></a></p>
+<h2>11. Entrega e abandono — orações de santos</h2>
+<p><a id="tomai-senhor"></a></p>
+<h3>11.1 “Tomai, Senhor, e recebei” (Santo Inácio de Loyola)</h3>
+<p>Tomai, Senhor, e recebei toda a minha liberdade, a minha memória, o meu entendimento e toda a minha vontade, tudo o que tenho e possuo. Vós mo destes; a vós, Senhor, o restituo. Tudo é vosso: disponde de tudo inteiramente segundo a vossa vontade. Dai-me o vosso amor e a vossa graça, que isso me basta. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="abandono-foucauld"></a></p>
+<h3>11.2 Oração do abandono (São Carlos de Foucauld)</h3>
+<p><em>Grande adorador, que passava longas horas diante do Santíssimo.</em></p>
+<p>Meu Pai, eu me abandono a vós. Fazei de mim o que quiserdes. O que quer que façais de mim, eu vos agradeço. Estou pronto para tudo, aceito tudo, contanto que a vossa vontade se faça em mim e em todas as vossas criaturas. Não quero outra coisa, meu Deus. Entrego a minha alma em vossas mãos; eu vo-la dou, meu Deus, com todo o amor do meu coração, porque vos amo, e é para mim uma necessidade de amor dar-me, entregar-me em vossas mãos sem medida, com infinita confiança, porque sois meu Pai.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="fica-comigo"></a></p>
+<h3>11.3 “Fica comigo, Senhor” (atribuída a São Pio de Pietrelcina)</h3>
+<p><em>Oração que São Pio rezava depois da Comunhão. Versão abreviada.</em></p>
+<p>Fica comigo, Senhor, pois preciso da tua presença para não te esquecer. Sabes quão facilmente posso te abandonar.<br />
+Fica comigo, Senhor, porque sou fraco e preciso da tua força para não cair.<br />
+Fica comigo, Senhor, porque és a minha vida, e sem ti perco o fervor.<br />
+Fica comigo, Senhor, porque és a minha luz, e sem ti estou nas trevas.<br />
+Fica comigo, Senhor, para me mostrares a tua vontade.<br />
+Fica comigo, Senhor, para que eu ouça a tua voz e te siga.<br />
+Fica comigo, Senhor, pois desejo amar-te muito e estar sempre em tua companhia.<br />
+Fica comigo, Senhor, se queres que eu te seja fiel.<br />
+Fica comigo, Senhor, porque, por mais pobre que seja a minha alma, quero que ela seja para ti um lugar de consolação, um ninho de amor.<br />
+Fica comigo, Jesus, pois já é tarde e o dia declina (Lc 24,29); a vida passa, e a morte, o juízo e a eternidade se aproximam. Preciso de ti para renovar as minhas forças e não parar no caminho.<br />
+Fica comigo, Jesus: não te peço consolações divinas, porque não as mereço, mas o dom da tua presença — isso, sim, eu te peço!<br />
+Fica comigo, Senhor, pois é só a ti que procuro: o teu amor, a tua graça, a tua vontade, o teu Coração, o teu Espírito, porque te amo e não peço outra recompensa senão amar-te mais.<br />
+Com um amor firme e prático, quero amar-te de todo o coração enquanto estiver na terra, para continuar a amar-te perfeitamente por toda a eternidade. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="oracao-universal"></a></p>
+<h3>11.4 Oração universal (atribuída ao Papa Clemente XI) — trecho inicial</h3>
+<p>Creio, Senhor, mas que eu creia com mais firmeza.<br />
+Espero, mas que eu espere com mais confiança.<br />
+Amo, mas que eu ame com mais ardor.<br />
+Arrependo-me, mas que eu me arrependa com mais dor.<br />
+Adoro-vos como meu primeiro princípio;<br />
+desejo-vos como meu último fim;<br />
+louvo-vos como meu benfeitor perpétuo;<br />
+invoco-vos como meu defensor propício.<br />
+Dirigi-me com a vossa sabedoria,<br />
+contende-me com a vossa justiça,<br />
+consolai-me com a vossa misericórdia,<br />
+protegei-me com o vosso poder.<br />
+Ofereço-vos, Senhor, os meus pensamentos, para que se dirijam a vós;<br />
+as minhas palavras, para que falem de vós;<br />
+as minhas ações, para que sejam segundo vós;<br />
+os meus sofrimentos, para que sejam por vós.<br />
+Quero o que vós quereis, porque vós o quereis, como vós o quereis e enquanto vós o quiserdes. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-maria"></a></p>
+<h2>12. Orações com Maria</h2>
+<p><em>Maria é “mulher eucarística” (São João Paulo II,</em> Ecclesia de Eucharistia<em>, 53): rezar com ela diante do Santíssimo é adorar com o coração da Mãe.</em></p>
+<p><a id="salve-rainha"></a></p>
+<h3>12.1 Salve-Rainha</h3>
+<p>Salve, Rainha, Mãe de misericórdia, vida, doçura e esperança nossa, salve! A vós bradamos, os degredados filhos de Eva; a vós suspiramos, gemendo e chorando neste vale de lágrimas. Eia, pois, advogada nossa, esses vossos olhos misericordiosos a nós volvei; e depois deste desterro, mostrai-nos Jesus, bendito fruto do vosso ventre, ó clemente, ó piedosa, ó doce sempre Virgem Maria.<br />
+℣. Rogai por nós, santa Mãe de Deus,<br />
+℟. para que sejamos dignos das promessas de Cristo.</p>
+<p><a id="sub-tuum"></a></p>
+<h3>12.2 À vossa proteção — <em>Sub tuum praesidium</em></h3>
+<p>À vossa proteção recorremos, santa Mãe de Deus; não desprezeis as nossas súplicas em nossas necessidades, mas livrai-nos sempre de todos os perigos, ó Virgem gloriosa e bendita. Amém.</p>
+<p><a id="lembrai-vos"></a></p>
+<h3>12.3 Lembrai-vos (São Bernardo)</h3>
+<p>Lembrai-vos, ó piíssima Virgem Maria, que nunca se ouviu dizer que algum daqueles que têm recorrido à vossa proteção, implorado a vossa assistência e reclamado o vosso socorro, fosse por vós desamparado. Animado eu, pois, com igual confiança, a vós, ó Virgem entre todas singular, como a Mãe recorro, de vós me valho e, gemendo sob o peso dos meus pecados, me prostro a vossos pés. Não desprezeis as minhas súplicas, ó Mãe do Verbo de Deus humanado, mas dignai-vos de as ouvir propícia e de me alcançar o que vos rogo. Amém.</p>
+<p><a id="invocacoes-marianas"></a></p>
+<h3>12.4 Invocações marianas eucarísticas</h3>
+<p>Nossa Senhora do Santíssimo Sacramento, rogai por nós. <em>(invocação de São Pedro Julião Eymard)</em><br />
+Doce Coração de Maria, sede a minha salvação.<br />
+Ó Maria concebida sem pecado, rogai por nós que recorremos a vós.<br />
+Santa Maria, Mãe de Deus, que trouxestes no seio o Pão da Vida, ensinai-nos a adorá-lo.</p>
+<blockquote>
+<p><em>Sugestão: rezar o Rosário diante do Santíssimo, especialmente os </em><em>Mistérios Luminosos</em><em>, cujo quinto mistério é a </em><em>Instituição da Eucaristia</em><em>.</em></p>
+</blockquote>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-intercessao"></a></p>
+<h2>13. Intercessão</h2>
+<p><a id="pelo-papa"></a></p>
+<h3>13.1 Pelo Papa</h3>
+<p>℣. Oremos pelo nosso Santo Padre, o Papa <em>(nome)</em>.<br />
+℟. O Senhor o conserve, lhe dê vida, o faça feliz na terra e não o entregue nas mãos dos seus inimigos.</p>
+<p><em>Reza-se um</em> <a href="#pai-nosso">Pai-Nosso</a><em>, uma</em> <a href="#ave-maria">Ave-Maria</a> <em>e um</em> <a href="#gloria">Glória</a> <em>nas intenções do Santo Padre.</em></p>
+<p><a id="pelos-sacerdotes"></a></p>
+<h3>13.2 Pelos sacerdotes (atribuída a Santa Teresinha do Menino Jesus)</h3>
+<p>Ó Jesus, Sacerdote eterno, guardai os vossos sacerdotes dentro do vosso Sagrado Coração, onde ninguém os possa tocar. Guardai imaculadas as suas mãos ungidas, que tocam todos os dias o vosso sagrado Corpo. Guardai puros os seus lábios, que se tingem com o vosso precioso Sangue. Guardai puros e desapegados os seus corações, marcados com o sublime selo do vosso sacerdócio. Fazei-os crescer no amor e na fidelidade a vós e protegei-os do contágio do mundo. Com o poder de transformar o pão e o vinho, dai-lhes também o poder de transformar os corações. Abençoai os seus trabalhos com frutos abundantes e concedei-lhes um dia a coroa da vida eterna. Amém.</p>
+<p><a id="pelas-vocacoes"></a></p>
+<h3>13.3 Pelas vocações</h3>
+<p><em>Cumprindo o pedido de Jesus: “Pedi ao Senhor da messe que envie operários para a sua messe” (Mt 9,38).</em></p>
+<p>Senhor Jesus, presente neste Sacramento, enviai operários para a vossa messe: sacerdotes santos, diáconos, religiosos, religiosas, missionários e famílias cristãs. Chamai muitos jovens a seguir-vos e dai-lhes generosidade para responder. Que nunca falte à vossa Igreja quem celebre a Eucaristia e quem vos adore. Amém.</p>
+<p><a id="pelos-defuntos"></a></p>
+<h3>13.4 Pelos fiéis defuntos</h3>
+<p>℣. Dai-lhes, Senhor, o descanso eterno.<br />
+℟. E brilhe para eles a vossa luz.<br />
+℣. Descansem em paz.<br />
+℟. Amém.</p>
+<p><a id="sao-miguel"></a></p>
+<h3>13.5 A São Miguel Arcanjo (Leão XIII)</h3>
+<p>São Miguel Arcanjo, defendei-nos no combate; sede o nosso refúgio contra a maldade e as ciladas do demônio. Ordene-lhe Deus, instantemente o pedimos; e vós, Príncipe da milícia celeste, pela virtude divina, precipitai no inferno a Satanás e aos outros espíritos malignos que andam pelo mundo para perder as almas. Amém.</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-jaculatorias"></a></p>
+<h2>14. Jaculatórias eucarísticas</h2>
+<p><em>Orações curtas para repetir no silêncio da adoração, ou para preencher os momentos de distração.</em></p>
+<ul>
+<li>Graças e louvores se deem a todo momento ao Santíssimo e diviníssimo Sacramento.</li>
+<li>Meu Senhor e meu Deus! <em>(Jo 20,28 — tradicionalmente dito ao olhar a Hóstia)</em></li>
+<li>Bendito, louvado e adorado seja a todo momento Jesus no Santíssimo Sacramento do altar.</li>
+<li>Louvado seja Nosso Senhor Jesus Cristo. — <em>Para sempre seja louvado.</em></li>
+<li>Ó Sacramento santíssimo, ó Sacramento divino, todo louvor e toda graça sejam a cada momento vossos.</li>
+<li>Senhor, dai-nos sempre deste pão. <em>(Jo 6,34)</em></li>
+<li>Senhor, eu creio; ajudai a minha falta de fé. <em>(Mc 9,24)</em></li>
+<li>Senhor, eu não sou digno de que entreis em minha morada, mas dizei uma só palavra e serei salvo.</li>
+<li>Fica conosco, Senhor, pois já é tarde. <em>(Lc 24,29)</em></li>
+<li>Senhor, a quem iremos? Só vós tendes palavras de vida eterna. <em>(Jo 6,68)</em></li>
+<li>Ó Santíssima Trindade, eu vos adoro! Meu Deus, meu Deus, eu vos amo no Santíssimo Sacramento!</li>
+<li>Jesus, eu confio em vós!</li>
+<li>Sagrado Coração de Jesus, eu confio em vós!</li>
+<li>Doce Coração de Jesus, sede o meu amor.</li>
+<li>Jesus, manso e humilde de coração, fazei o meu coração semelhante ao vosso.</li>
+<li>Coração Eucarístico de Jesus, tende piedade de nós.</li>
+<li>Meu Jesus, misericórdia!</li>
+<li>Jesus, Maria, José, eu vos amo; salvai almas.</li>
+<li>Nós vos adoramos, Santíssimo Senhor Jesus Cristo, e vos bendizemos, porque pela vossa santa cruz remistes o mundo.</li>
+</ul>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-palavra"></a></p>
+<h2>15. Palavra de Deus para meditar</h2>
+<p><a id="salmo-150"></a></p>
+<h3>15.1 Salmo 150 — Louvor final</h3>
+<p><em>Tradução livre.</em></p>
+<p>Aleluia!<br />
+Louvai a Deus no seu santuário,<br />
+louvai-o no firmamento do seu poder.<br />
+Louvai-o por seus grandes feitos,<br />
+louvai-o por sua imensa grandeza.<br />
+Louvai-o ao som da trombeta,<br />
+louvai-o com a harpa e a cítara.<br />
+Louvai-o com tambores e danças,<br />
+louvai-o com instrumentos de cordas e flautas.<br />
+Louvai-o com címbalos sonoros,<br />
+louvai-o com címbalos retumbantes.<br />
+Tudo o que respira louve o Senhor!<br />
+Aleluia!</p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<p><a id="leituras"></a></p>
+<h3>15.2 Leituras e salmos recomendados</h3>
+<p><em>Leia devagar, na Bíblia, e depois permaneça em silêncio diante do Senhor.</em></p>
+<p><strong>Evangelhos e Novo Testamento</strong></p>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Passagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discurso do Pão da Vida</td>
+<td>Jo 6,22-69</td>
+</tr>
+<tr>
+<td>A instituição da Eucaristia</td>
+<td>Mt 26,26-29 · Mc 14,22-25 · Lc 22,14-20</td>
+</tr>
+<tr>
+<td>O que Paulo recebeu do Senhor</td>
+<td>1Cor 11,23-29</td>
+</tr>
+<tr>
+<td>Um só pão, um só corpo</td>
+<td>1Cor 10,16-17</td>
+</tr>
+<tr>
+<td>Os discípulos de Emaús</td>
+<td>Lc 24,13-35</td>
+</tr>
+<tr>
+<td>O lava-pés e o mandamento novo</td>
+<td>Jo 13,1-15.34-35</td>
+</tr>
+<tr>
+<td>“Permanecei em mim” — a videira</td>
+<td>Jo 15,1-17</td>
+</tr>
+<tr>
+<td>Oração sacerdotal de Jesus</td>
+<td>Jo 17</td>
+</tr>
+<tr>
+<td>A agonia no Getsêmani — “Não pudestes vigiar uma hora comigo?”</td>
+<td>Mt 26,36-46</td>
+</tr>
+<tr>
+<td>A multiplicação dos pães</td>
+<td>Mc 6,30-44 · Jo 6,1-15</td>
+</tr>
+<tr>
+<td>A primeira comunidade e a fração do pão</td>
+<td>At 2,42-47</td>
+</tr>
+<tr>
+<td>Cristo, sumo sacerdote</td>
+<td>Hb 9,11-15</td>
+</tr>
+<tr>
+<td>As núpcias do Cordeiro / a adoração celeste</td>
+<td>Ap 5,6-14 · Ap 19,6-9</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Antigo Testamento (figuras da Eucaristia)</strong></p>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Passagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A oferta de Melquisedec</td>
+<td>Gn 14,18-20</td>
+</tr>
+<tr>
+<td>O cordeiro pascal</td>
+<td>Ex 12,1-14</td>
+</tr>
+<tr>
+<td>O maná no deserto</td>
+<td>Ex 16,2-15 · Dt 8,2-3</td>
+</tr>
+<tr>
+<td>O pão que fortalece Elias</td>
+<td>1Rs 19,4-8</td>
+</tr>
+<tr>
+<td>O banquete da Sabedoria</td>
+<td>Pr 9,1-6</td>
+</tr>
+<tr>
+<td>O banquete no monte</td>
+<td>Is 25,6-9</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Salmos</strong></p>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>Salmo</th>
+<th>Por quê</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sl 23 (22)</td>
+<td>O Senhor é meu pastor; “preparais uma mesa para mim”</td>
+</tr>
+<tr>
+<td>Sl 34 (33)</td>
+<td>“Provai e vede como o Senhor é bom”</td>
+</tr>
+<tr>
+<td>Sl 42–43 (41–42)</td>
+<td>“A minha alma tem sede de Deus”</td>
+</tr>
+<tr>
+<td>Sl 63 (62)</td>
+<td>“Ó Deus, vós sois o meu Deus, desde a aurora vos procuro”</td>
+</tr>
+<tr>
+<td>Sl 84 (83)</td>
+<td>“Como são amáveis as vossas moradas”</td>
+</tr>
+<tr>
+<td>Sl 95 (94)</td>
+<td>Convite à adoração: “Vinde, adoremos e prostremo-nos”</td>
+</tr>
+<tr>
+<td>Sl 103 (102)</td>
+<td>“Bendize, ó minha alma, o Senhor”</td>
+</tr>
+<tr>
+<td>Sl 110 (109)</td>
+<td>“Tu és sacerdote para sempre, segundo a ordem de Melquisedec”</td>
+</tr>
+<tr>
+<td>Sl 116 (114–115)</td>
+<td>“Elevarei o cálice da salvação”</td>
+</tr>
+<tr>
+<td>Sl 139 (138)</td>
+<td>“Senhor, vós me sondais e conheceis” — para o silêncio</td>
+</tr>
+<tr>
+<td>Sl 145 (144) e 147</td>
+<td>Louvor; “sacia-te com a flor do trigo” (Sl 147,14)</td>
+</tr>
+<tr>
+<td>Sl 117 (116) e 150</td>
+<td>Louvor final (textos <a href="#laudate-dominum">aqui</a> e <a href="#salmo-150">aqui</a>)</td>
+</tr>
+</tbody>
+</table></div>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-latim"></a></p>
+<h2>16. Orações em latim</h2>
+<p><a id="latim-basicas"></a></p>
+<h3>16.1 <em>Pater noster, Ave Maria, Gloria Patri</em></h3>
+<p><strong>Pater noster</strong></p>
+<blockquote>
+<p>Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. Amen.</p>
+</blockquote>
+<p><strong>Ave Maria</strong></p>
+<blockquote>
+<p>Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.</p>
+</blockquote>
+<p><strong>Gloria Patri</strong></p>
+<blockquote>
+<p>Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.</p>
+</blockquote>
+<p><strong>Hinos e orações latinas nesta coletânea</strong></p>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>Texto latino</th>
+<th>Onde está</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>O salutaris Hostia</em></td>
+<td><a href="#o-salutaris">1.1</a></td>
+</tr>
+<tr>
+<td><em>Tantum ergo</em></td>
+<td><a href="#tantum-ergo">1.2</a></td>
+</tr>
+<tr>
+<td><em>Deus, qui nobis sub Sacramento mirabili</em></td>
+<td><a href="#oracao-bencao">1.3</a></td>
+</tr>
+<tr>
+<td><em>Laudate Dominum</em></td>
+<td><a href="#laudate-dominum">1.6</a></td>
+</tr>
+<tr>
+<td><em>Adoro te devote</em></td>
+<td><a href="#adoro-te">5.1</a></td>
+</tr>
+<tr>
+<td><em>Ave verum Corpus</em></td>
+<td><a href="#ave-verum">5.2</a></td>
+</tr>
+<tr>
+<td><em>O sacrum convivium</em></td>
+<td><a href="#o-sacrum-convivium">5.3</a></td>
+</tr>
+<tr>
+<td><em>Panis angelicus</em></td>
+<td><a href="#panis-angelicus">5.4</a></td>
+</tr>
+<tr>
+<td><em>Pange lingua</em></td>
+<td><a href="#pange-lingua">5.5</a></td>
+</tr>
+<tr>
+<td><em>Anima Christi</em></td>
+<td><a href="#alma-de-cristo">6.4</a></td>
+</tr>
+</tbody>
+</table></div>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="cat-encerramento"></a></p>
+<h2>17. Encerramento</h2>
+<p><em>Para encerrar uma adoração com bênção, siga a ordem: <a href="#tantum-ergo">Tão sublime Sacramento</a> → <a href="#oracao-bencao">oração da bênção</a> → bênção → <a href="#bendito-seja-deus">Bendito seja Deus</a> → <a href="#laudate-dominum">Laudate Dominum</a> ou canto final → <a href="#gracas-e-louvores">Graças e louvores</a>. Para uma visita pessoal ao sacrário, pode usar a oração abaixo.</em></p>
+<p><a id="oracao-saida"></a></p>
+<h3>17.1 Oração antes de deixar a igreja</h3>
+<p>Meu Senhor Jesus Cristo, agradeço-vos por este tempo em vossa presença. Preciso partir, mas meu coração fica convosco no sacrário. Acompanhai-me no caminho, guardai-me de todo pecado e fazei que eu leve aos outros o amor que de vós recebi. Abençoai-me, Senhor, e a todos os que amo. Até breve, meu Jesus.</p>
+<p>Em nome do Pai, e do Filho, e do Espírito Santo. Amém.</p>
+<p>℣. Graças e louvores se deem a todo momento<br />
+℟. ao Santíssimo e diviníssimo Sacramento.</p>
+<p><em>Ao sair, genuflexão diante do Santíssimo.</em></p>
+<p class="voltar"><a href="#sumario">↑ Sumário</a></p>
+<hr />
+<p><a id="indulgencias"></a></p>
+<h2>Anexo — Nota sobre indulgências</h2>
+<p><em>Segundo o</em> Enchiridion Indulgentiarum <em>(Manual das Indulgências, 4ª ed., 1999):</em></p>
+<div class="tabela"><table>
+<thead>
+<tr>
+<th>Prática</th>
+<th>Indulgência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adorar o Santíssimo Sacramento por <strong>pelo menos meia hora</strong></td>
+<td><strong>Plenária</strong></td>
+</tr>
+<tr>
+<td>Visitar o Santíssimo para adorá-lo (tempo menor)</td>
+<td>Parcial</td>
+</tr>
+<tr>
+<td>Rezar devotamente o <strong><em>Tantum ergo</em></strong> na Quinta-feira Santa (após a Missa da Ceia do Senhor) ou na solenidade de Corpus Christi</td>
+<td><strong>Plenária</strong></td>
+</tr>
+<tr>
+<td>Rezar o <em>Tantum ergo</em> em outras ocasiões</td>
+<td>Parcial</td>
+</tr>
+<tr>
+<td>Rezar o <em>Adoro te devote</em>, a <em>Alma de Cristo</em> ou uma oração de comunhão espiritual</td>
+<td>Parcial</td>
+</tr>
+<tr>
+<td>Rezar o Ato de reparação ao Sagrado Coração (“Dulcíssimo Jesus”) publicamente na solenidade do Sagrado Coração</td>
+<td><strong>Plenária</strong></td>
+</tr>
+<tr>
+<td>Rezar o <em>Te Deum</em> em ação de graças no último dia do ano, publicamente</td>
+<td><strong>Plenária</strong></td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>Condições habituais para a indulgência plenária:</strong> confissão sacramental, comunhão eucarística e oração nas intenções do Sumo Pontífice (ex.: um <a href="#pai-nosso">Pai-Nosso</a> e uma <a href="#ave-maria">Ave-Maria</a>), além do desapego de todo pecado, mesmo venial. Estas condições podem ser cumpridas alguns dias antes ou depois da obra prescrita.</p>
+</blockquote>
+<p class="voltar"><a href="#topo">↑ Voltar ao topo</a></p>
+</main>
+<script>
+(function() {
+  var root = document.documentElement;
+  function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  var esc = parseFloat(get("escala")) || 1;
+  var tema = get("tema");
+  if (tema) root.setAttribute("data-theme", tema);
+  function aplica() { root.style.setProperty("--escala", esc); set("escala", esc); }
+  aplica();
+  document.getElementById("maior").onclick = function() { esc = Math.min(1.6, +(esc + 0.1).toFixed(2)); aplica(); };
+  document.getElementById("menor").onclick = function() { esc = Math.max(0.8, +(esc - 0.1).toFixed(2)); aplica(); };
+  document.getElementById("tema").onclick = function() {
+    var escuro = root.getAttribute("data-theme") === "dark" ||
+      (!root.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+    var novo = escuro ? "light" : "dark";
+    root.setAttribute("data-theme", novo); set("tema", novo);
+  };
+})();
+</script>
+</body>
+</html>
